@@ -1,0 +1,41 @@
+:root {
+  font-family: Cambria;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 95%;
+    padding: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+button {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
